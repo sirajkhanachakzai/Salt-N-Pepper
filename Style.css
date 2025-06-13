@@ -1,0 +1,883 @@
+
+
+
+
+/* Header Section Started*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #000;
+    
+  }
+  
+  .logo img {
+    height: 84px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  
+  
+  .nav-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .franchise-btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .order-btn {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  
+  
+  .arrow-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #e50914;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Header Section Ended*/
+
+  /* Main Section Started */
+
+.banner-img{
+    width: 100%;
+}
+
+/* Brands Section*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .brands-section {
+    padding: 50px 20px;
+  }
+  
+  .brands-section h1 {
+    font-size: 36px;
+    font-weight: 300;
+  }
+  
+  .brands-section h1 span {
+    font-weight: bold;
+  }
+  
+  .brands-section h2 {
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  
+  .brands-section p {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .brand-container {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .brand img {
+    width: 100%;
+    max-width: 220px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  }
+  
+  .brand-btn {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    
+  }
+  
+
+
+  /* Franchise Section */
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #0e0e0e;
+    color: white;
+  }
+  
+  .container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .logo {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: #aaa;
+    margin-top: 10px;
+  }
+  
+  .franchise {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .left {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .right {
+    flex: 1;
+    text-align: right;
+    min-width: 300px;
+  }
+  
+  .right img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 6px;
+  }
+  
+  .location-label {
+    color: #c70000;
+    font-size: 0.9rem;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-name {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .logo-inline {
+    font-family: Georgia, serif;
+    font-weight: bold;
+  }
+  
+  .info {
+    color: #ccc;
+    font-size: 0.95rem;
+    margin: 8px 0;
+  }
+  
+  .info i {
+    margin-right: 8px;
+    color: #999;
+  }
+  
+  .directions-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px 18px;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+  
+  }
+  
+  
+  
+  
+  .arrow-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #c70000;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    border-radius: 50%;
+    font-size: 0.85rem;
+  }
+  
+  .arrow-circle i {
+    color: #c70000;
+  }
+  
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #0e0e0e;
+    color: white;
+  }
+  
+  .container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .franchise {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 60px 0;
+    flex-wrap: wrap;
+  }
+  
+  .franchise.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .image-side, .text-side {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .image-side img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 6px;
+  }
+  
+  .location-label {
+    color: #c70000;
+    font-size: 0.9rem;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-name {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .logo-inline {
+    font-family: Georgia, serif;
+    font-weight: bold;
+  }
+  
+  .info {
+    color: #ccc;
+    font-size: 0.95rem;
+    margin: 8px 0;
+  }
+  
+  .info i {
+    margin-right: 8px;
+    color: #999;
+  }
+  
+  .directions-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 10px 18px;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+    
+  }
+  
+
+  .arrow-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #c70000;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    border-radius: 50%;
+    font-size: 0.85rem;
+  }
+  
+  .arrow-circle i {
+    color: #c70000;
+  }
+  
+  /* Express Section*/
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+    font-family: 'Georgia', serif;
+  }
+  
+  .express-banner {
+    background-color: #0e0e0e;
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .express-content {
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .main-logo {
+    font-family: 'Impact', sans-serif;
+    color: white;
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .subheading {
+    font-family: 'Georgia', serif;
+    color: white;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  
+  
+  .express-banner::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -100px;
+    width: 600px;
+    height: 600px;
+    background-color: #111;
+    border-top-left-radius: 100%;
+    z-index: 1;
+  }
+  
+  body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #000;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .location {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .info {
+    font-size: 0.95em;
+    margin: 10px 0;
+    color: #ccc;
+    padding: 0 10px;
+  }
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  
+  
+  .circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .saltpepper-franchise {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .saltpepper-franchise .franchise-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .saltpepper-franchise .left-section img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .saltpepper-franchise .right-section {
+    max-width: 400px;
+  }
+  
+  .saltpepper-franchise h2 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .saltpepper-franchise h3 {
+    font-size: 26px;
+    margin: 5px 0 20px 0;
+  }
+  
+  .saltpepper-franchise .location-label {
+    color: #e64040;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin: 0 0 5px;
+  }
+  
+  .saltpepper-franchise h4 {
+    font-size: 22px;
+    margin: 0 0 15px;
+  }
+  
+  .saltpepper-franchise .bold {
+    font-weight: bold;
+  }
+  
+  .saltpepper-franchise .address,
+  .saltpepper-franchise .phone {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .saltpepper-franchise .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: #22c55e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+  
+  .saltpepper-franchise .btn:hover {
+    background-color: #16a34a;
+  }
+  
+  .saltpepper-franchise .circle-arrow {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  
+  .express-franchises {
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .express-franchises h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .express-franchises h3 {
+    font-size: 30px;
+    margin: 10px 0 40px;
+  }
+  
+  .express-franchises h3 span {
+    font-weight: normal;
+    font-size: 18px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .franchise-card {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 260px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .franchise-card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .franchise-card .opening {
+    color: #e64040;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .franchise-card h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .franchise-card p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .single-card {
+    margin-top: 20px;
+  }
+
+  .social-feed {
+    background-color: #000;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .feed-title {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .feed-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: nowrap;
+  }
+  
+  .feed-flex img {
+    width: 160px; /* Reduced width to fit all 5 in one row */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+  
+ 
+
+  /* Footer Section Stated*/
+
+  .footer {
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 60px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .footer-logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-desc {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+  }
+  
+  .footer-col h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links-list li {
+    margin-bottom: 12px;
+  }
+  
+  .footer-links-list a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+    
+  .footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 18px;
+  }
+  
+  .footer-col strong {
+    color: #fff;
+  }
+  
+  .footer-social-wrap {
+    background-color: #0d0d0d;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .social-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .social-column h4 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a img {
+    width: 36px;
+    height: 36px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.1);
+  }
+  
+  .app-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .app-buttons a img {
+    height: 42px;
+    width: auto;
+  }
+  
+  .footer-bottom-bar {
+    width: 100%;
+    background-color: #000;
+    color: #ccc;
+    padding: 12px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer-bottom-bar p {
+    margin: 0;
+    color: #ccc;
+    font-size: 14px;
+  }
+  
+  .footer-bottom-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  
+  
